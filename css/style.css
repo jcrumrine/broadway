@@ -1,10 +1,30 @@
 html {
   font-family: "Century Gothic";
+}
+
+body {
   text-align: center;
+}
+
+footer {
+  background-color: dimgray;
+  text-align: left;
+  color: white;
+  font-size: 11px;
 }
 
 h1 {
   font-size: 70px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
   font-weight: bold;
 }
 
@@ -13,11 +33,15 @@ nav {
 
 }
 
+p {
+  font-size: 14px;
+}
+
 a:link, a:visited {
     color: white;
 }
 
-.header {
+.header, #about {
   background-image: url(../resources/the-flatiron-building.png);
   color: white;
 }
